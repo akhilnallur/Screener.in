@@ -1,0 +1,147 @@
+*{
+    font-family: "Inter var", "Inter", sans-serif;
+}
+body{
+    background-color: rgb(243, 243, 243);
+}
+.btn{
+    font-size: 0.8rem;
+    background-color: rgb(255, 255, 255);
+    border-width: 1px;
+    border-color: rgb(211, 211, 211);
+    border-radius: 5px;
+}
+.tools{
+    font-size: 0.9rem;
+    background: none;
+    
+}
+.navbar-nav{
+    font-size: 0.9rem;
+}
+.section {
+    /* background-color: aqua; */
+    height: 50rem;
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+.inside{
+    /* background-color: rgb(153, 248, 94); */
+    width: 50%;
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+@media screen and(min-width: 300px){
+    .screener-logo{
+        max-width: 20rem;
+    }
+}
+.form-control{
+    border-width: 0;
+}
+.search{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 5px;
+    width: 100%;
+}
+.analysis{
+    width: 75%;
+}
+.analysis-btn{
+    border-style: solid;
+    border-width: 1.5px;
+    border-radius: 5px;
+    height: 2.2em;
+    font-size: 0.8rem;
+    margin-top: 0.8rem;
+    margin-left: 0.8rem;
+    color: rgb(157, 157, 157);
+    border-color: rgb(157, 157, 157);;
+}
+@media (max-width: 1200px){
+    .header{
+        display: none;
+    }
+}
+
+.bottom-navbar{
+    background-color: rgb(255, 255, 255);
+    height: 3rem;
+}
+@media (min-width:1201px){
+    .bottom-navbar{
+        display: none;
+    }
+}
+.bottom-btn{
+    background: none;
+    border-width: 0;
+}
+.footer{
+    background-color: rgb(255, 255, 255);
+    height: 20rem;
+    
+}
+.img-responsive{
+    width: 8rem;
+}
+/* .left-side{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+} */
+.left-side h3{
+    font-size: 1.2rem;
+    margin-top: 2rem;
+}
+.right-side{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.nav-content{
+    display: flex;
+    justify-content: space-between;
+}
+.bottom-navbar{
+    border: 0;
+    border-style: solid;
+    border-top: 2px;
+    border-color: rgb(50, 50, 50);
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.left p{
+    font-size: 0.9rem;
+}
+.left a{
+    text-decoration: none;
+    font-size: 0.8rem;
+}
+.text-dark{
+    text-decoration: none;
+    font-size: 0.8rem;
+}
+.heading{
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+.nav-content{
+    font-size: 0.6rem;
+}
+.box1 h6{
+    font-size: 15px;
+}
